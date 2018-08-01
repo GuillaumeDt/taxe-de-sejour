@@ -1,0 +1,37 @@
+{
+	"name": "taxe-de-sejour",
+	"version": "1.0.0",
+	"description": "micro serveur de donnees xml des deliberations de la taxe de sejour",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "GuillaumeDt",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"compression": "^1.7.3",
+		"console": "^0.7.2",
+		"express": "^4.16.3",
+		"fs": "0.0.1-security",
+		"http": "0.0.0",
+		"xml-js": "^1.6.7",
+		"xmldom": "^0.1.27",
+		"xpath": "0.0.24"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GuillaumeDt/taxe-de-sejour.git"
+	},
+	"keywords": [
+		"taxe",
+		"impots",
+		"dgfip",
+		"tourisme",
+		"nodejs",
+		"xml"
+	],
+	"bugs": {
+		"url": "https://github.com/GuillaumeDt/taxe-de-sejour/issues"
+	},
+	"homepage": "https://github.com/GuillaumeDt/taxe-de-sejour#readme"
+}
