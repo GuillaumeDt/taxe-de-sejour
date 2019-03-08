@@ -23,7 +23,7 @@ var categories = null,
 	categories2Json = null,
 	natures2Json = null,
 	listeningPort = 3000,
-	fichierDeTaxation = "/data/taxe_sejour_2018_05_31_reformate.xml";
+	fichierDeTaxation = "/data/taxe_sejour_2018_05_31.xml";
 
 
 Object.prototype.xml2json = function () {
